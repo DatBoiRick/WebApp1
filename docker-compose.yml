@@ -10,7 +10,6 @@ services:
 
   db:
     image: mysql:5.7
-    platform: linux/x86_64
     container_name: "MySQL_Database"
     ports:
       - "32000:3306"
